@@ -1,0 +1,17 @@
+{
+    "CONFIG_PATH": "${ROOT_DIR}/config/config.json",
+    "CHATGPT_INIT_PROMPT_PATH": "${ROOT_DIR}/config/chatgpt_init_prompt.txt",
+
+    "CONVERSATION_HISTORY_PATH": "${ROOT_DIR}/brain/brain_output/conversation_history.txt",
+
+    "LONG_TERM_MEMORY_PATH": "${ROOT_DIR}/brain/memory/long_term_memory/long_term_memory.json",
+    "SHORT_TERM_MEMORY_LAST_THOUGHT_PATH": "${ROOT_DIR}/brain/memory/short_term_memory/last_thought.txt",
+
+    "VOCAL_OUTPUT_PATH": "${ROOT_DIR}/vocal/output/vocal_output.wav",
+    
+    "LOG_OUTPUT_PATH": "${ROOT_DIR}/logger/logger_output/app.log",
+    "LOG_WHEN": "midnight",
+    "LOG_INTERVAL": 1,
+    "LOG_BACKUP_COUNT": 7,
+    "LOG_FORMATTER_FORMAT": "%(asctime)s - %(levelname)-8s - [%(filename)s:%(lineno)d]%(module)s.%(funcName)s - %(message)s"
+}

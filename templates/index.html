@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% block title %}>_{% endblock %}
+{% block content %}
+
+<div class="navbar-offset">
+  <div class="container" style="padding-top: 50px;">
+    <div class="row">
+      <div class="col">
+        <div class="row">
+          <div class="col text-center">
+            <img src="{{ url_for('static', filename='img/ai_5_bwhc_transparentbg.png') }}" class="img-fluid border border-5" />
+          </div>
+        </div>
+      </div>
+      <div class="col-8">
+        <div class="row">
+          <div class="col-12">
+            <div class="thoughts"> <!--  style="min-height: 100vh;" -->
+              {%- if thought -%}
+                {{ thought }}
+              {%- endif -%}
+            </div>
+          </div>
+        </div>
+
+        <div class="row fixed-bottom position-sticky pb-3" id="input-message-row">
+          <div class="col-12">
+            <form action="/" method="post">
+              <textarea type="text" class="form-control mb-2 rounded-0 input-message" name="inputMessage" id="inputMessage" placeholder="Ask me anything" required></textarea>
+              <button type="submit" class="btn btn-outline-secondary"><i class="bi bi-arrow-up-circle-fill"></i></button>
+              <button type="button" class="btn btn-outline-secondary" onclick="stop_ongoing_speech()"><i class="bi bi-stop-circle-fill"></i></button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript" src="{{ url_for('static', filename='js/script.js') }}"></script>
+{% endblock %}

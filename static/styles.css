@@ -1,0 +1,42 @@
+body {
+    min-height: 100vh;
+    padding: 0;
+}
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+.blinking-underscore {
+    animation: blink 1.15s steps(1, end) infinite;
+}
+
+.navbar-offset {
+    padding-top: 56px; /* navbar height */
+}
+
+#input-message-row {
+    background-color: var(--bs-body-bg);
+}
+
+.input-message {
+    resize: none;
+    overflow: hidden;
+}
+
+.thoughts {
+    white-space: pre-wrap;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 1.75;
+}
+
+/* Override Bootstrap class: navbar */
+.navbar {
+    height: 56px; /* navbar height */
+}
+/* Override Bootstrap class: btn */
+.btn {
+    border-radius: 0;
+}
