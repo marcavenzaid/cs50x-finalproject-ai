@@ -16,7 +16,12 @@ audio_config = speechsdk.audio.AudioOutputConfig(use_default_speaker=True)
 
 speech_synthesizer = speechsdk.SpeechSynthesizer(speech_config=speech_config, audio_config=audio_config)
 
+# Initialize the process variable
+process = None
+
 def speak(text):
+    stop_ongoing_speech()  # Stop any ongoing speech before starting a new one
+
     logger.info(f"Synthesizing text to speech using multiprocessing..")
     global process
     process = multiprocessing.Process(target=synthesize, args=(text,))
@@ -68,7 +73,7 @@ def stop_ongoing_speech():
     # speech_synthesizer.stop_speaking_async()
 
     global process
-    if process.is_alive():
+    if process is not None and process.is_alive():
         process.terminate()
         process.join()
         logger.debug("Multiprocessing process for speaking has been terminated.")
