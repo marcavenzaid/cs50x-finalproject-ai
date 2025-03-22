@@ -1,6 +1,6 @@
 # cs50-finalproject-ai
 
-#### Video Demo:  [Video Demo](https://www.youtube.com/watch?v=1syp7LlZCXo)
+#### Video Demo:  [LINK](https://www.youtube.com/watch?v=1syp7LlZCXo)
 
 #### Description: 
 The name of the AI is **Project**.
