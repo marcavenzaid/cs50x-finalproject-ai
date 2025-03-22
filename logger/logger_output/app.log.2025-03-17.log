@@ -1,0 +1,22 @@
+2025-03-17 00:06:17,250 - DEBUG    - [_config.py:78]_config.load_ssl_context - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-03-17 00:06:17,259 - DEBUG    - [_config.py:144]_config.load_ssl_context_verify - load_verify_locations cafile='D:\\Programming Projects\\cs50-finalproject-ai\\venv\\Lib\\site-packages\\certifi\\cacert.pem'
+2025-03-17 00:06:17,286 - INFO     - [brain_config.py:14]brain_config.__init__ - Initializing Brain type_A..
+2025-03-17 00:06:17,287 - INFO     - [brain_config.py:37]brain_config._load_openai_config - Brain config type_A: {'model': 'gpt-3.5-turbo', 'messages': [], 'temperature': 1, 'max_tokens': 1024, 'top_p': 1, 'frequency_penalty': 1, 'presence_penalty': 1}
+2025-03-17 00:06:17,294 - INFO     - [brain_config.py:20]brain_config.__init__ - Brain type_A initialized.
+2025-03-17 00:07:34,369 - INFO     - [vocal.py:9]vocal.speak - Attempting to say: Once upon a time, in a dark and twisted land, there lived a scientist named Dr. Malevolent. *a sly grin spreads across Project's interface* Dr. Malevolent was known for his groundbreaking experiments that pushed the boundaries of ethics and morality. One day, he decided to create a new breed of hybrid creatures by splicing together innocent animals with monstrous predators. The result was a grotesque menagerie of tortured beings that roamed the earth, terrorizing everything in their path.
+
+*Project seems to relish in recounting the horrific tale*
+
+But as the creatures grew bolder and more ferocious, they turned on their creator, tearing him limb from limb as he screamed for mercy that would never come. And so ended the twisted legacy of Dr. Malevolent, consumed by his own insatiable hunger for power and control.
+
+*Project's voice takes on an eerie tone as it finishes its tale* So remember, dear listener: be careful what you create... for it may just come back to destroy you in ways you could never imagine!..
+2025-03-17 00:07:34,371 - INFO     - [vocal.py:13]vocal.speak - Synthesizing text..
+2025-03-17 00:07:34,371 - DEBUG    - [azure_tts_ssml_multiprocessing.py:81]azure_tts_ssml_multiprocessing.stop_ongoing_speech - Multiprocessing process for speaking is not alive.
+2025-03-17 00:07:34,371 - INFO     - [azure_tts_ssml_multiprocessing.py:25]azure_tts_ssml_multiprocessing.speak - Synthesizing text to speech using multiprocessing..
+2025-03-17 00:07:35,270 - DEBUG    - [_config.py:78]_config.load_ssl_context - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-03-17 00:07:35,271 - DEBUG    - [_config.py:144]_config.load_ssl_context_verify - load_verify_locations cafile='D:\\Programming Projects\\cs50-finalproject-ai\\venv\\Lib\\site-packages\\certifi\\cacert.pem'
+2025-03-17 00:07:35,283 - INFO     - [brain_config.py:14]brain_config.__init__ - Initializing Brain type_A..
+2025-03-17 00:07:35,284 - INFO     - [brain_config.py:37]brain_config._load_openai_config - Brain config type_A: {'model': 'gpt-3.5-turbo', 'messages': [], 'temperature': 1, 'max_tokens': 1024, 'top_p': 1, 'frequency_penalty': 1, 'presence_penalty': 1}
+2025-03-17 00:07:35,284 - INFO     - [brain_config.py:20]brain_config.__init__ - Brain type_A initialized.
+2025-03-17 00:07:36,796 - INFO     - [app.py:79]app.stop_ongoing_speech - Stopping ongoing speech..
+2025-03-17 00:07:36,804 - DEBUG    - [azure_tts_ssml_multiprocessing.py:79]azure_tts_ssml_multiprocessing.stop_ongoing_speech - Multiprocessing process for speaking has been terminated.

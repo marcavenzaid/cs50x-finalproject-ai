@@ -1,35 +1,35 @@
 # cs50-finalproject-ai
 
-#### Video Demo:  <URL HERE>
+#### Video Demo:  [Video Demo](https://www.youtube.com/watch?v=1syp7LlZCXo)
 
 #### Description: 
 The name of the AI is **Project**.
 
-Project is an AI friend that you can talk to. 
-
-She is designed to be amoral, sadistic, and manipulative. 
+Project is amoral, sadistic, and manipulative. 
 
 Project uses text-to-speech so you can hear her voice, making the interaction more immersive.
 
 Project is designed to engage users in conversations, providing responses based on the input it receives. The AI leverages the power of OpenAI's language model to generate human-like text and Microsoft Azure's Text-To-Speech (TTS) service to convert text responses into speech. This combination allows Project to interact with users in a more immersive and realistic manner.
 
-The AI's personality is intentionally crafted to be amoral, sadistic, and manipulative, making interactions with Project unique and potentially challenging. 
-
 Users can modify her personality by editing the initialization prompt in the `config/chatgpt_init_prompt.txt` file, allowing for a customizable experience. This flexibility enables users to tailor the AI's behavior to better suit their preferences or to explore different personality traits.
 
-The application is built using Flask, a lightweight web framework for Python, making it easy to set up and run locally. Flask provides a robust foundation for building web applications, allowing for seamless integration with other components and services. The project also includes logging functionality to track interactions and system performance, with logs being rotated and saved in the `logger_output` directory. This logging system helps in monitoring the application's behavior, debugging issues, and ensuring smooth operation.
+The application is built using Flask, a lightweight web framework for Python, making it easy to set up and run locally. 
+
+The project also includes logging functionality to track interactions and system performance, with logs being rotated and saved in the `logger_output` directory. This logging system helps in monitoring the application's behavior, debugging issues, and ensuring smooth operation.
 
 Project's architecture is modular, making it easy to extend and customize. The core components include the brain, memory management, vocal synthesis, and frontend interface. Each component is designed to be independent yet seamlessly integrated, allowing for flexibility in development and deployment.
 
-The `brain` module is responsible for processing user input and generating responses using the OpenAI language model. It manages the AI's state and ensures that responses are contextually appropriate. The memory management module handles both short-term and long-term memory, allowing the AI to maintain context and remember past interactions. The `vocal` module uses Microsoft Azure's Text-To-Speech service to convert text responses into speech, providing a more immersive user experience. The frontend interface, built using HTML, CSS, and JavaScript, provides a user-friendly platform for interacting with the AI.
+The `brain` module is responsible for processing user input and generating responses using the OpenAI language model. It manages the AI's state and ensures that responses are contextually appropriate. The memory management module handles both short-term and long-term memory, allowing the AI to maintain context and remember past interactions. 
+
+The `vocal` module uses Microsoft Azure's Text-To-Speech service to convert text responses into speech, providing a more immersive user experience. 
+
+The frontend interface, built using HTML, CSS, and JavaScript, provides a user-friendly platform for interacting with the AI.
 
 Project's memory management system is designed to handle both short-term and long-term memory, although long-term memory is not yet implemented. Short-term memory is stored in `last_thought.txt`, enabling the AI to maintain context within a single session. This allows Project to provide coherent and contextually relevant responses during interactions, enhancing the overall user experience.
 
 Overall, Project aims to provide an engaging and interactive AI experience, pushing the boundaries of conversational AI and exploring the ethical implications of creating AI with complex personalities. By combining advanced language processing capabilities with customizable personality traits and immersive vocal synthesis, Project offers a unique platform for users to interact with and explore the potential of AI-driven conversations.
 
 Project also explores the ethical implications of creating AI with complex personalities. By intentionally crafting an AI with amoral, sadistic, and manipulative traits, the project raises questions about the responsibilities of AI developers and the potential impact of AI on society. Users are encouraged to reflect on these ethical considerations and to experiment with modifying the AI's personality to better understand the consequences of different design choices.
-
-In summary, Project is a versatile and powerful AI friend that leverages cutting-edge technologies to provide a unique and immersive conversational experience. With its customizable personality, robust memory management, and high-quality vocal synthesis, Project pushes the boundaries of what is possible with conversational AI and invites users to explore the ethical implications of AI development.
 
 ![](README_assets/0_1.png?raw=true "screenshot_01")
 
